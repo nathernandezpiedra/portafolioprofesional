@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Natalia Hernández | Portafolio</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script defer src="scripts/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">NATALIA HERNÁNDEZ</div>
+      
+        <!-- Menú horizontal (visible solo en desktop) -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-item" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="#about" class="nav-item" data-es="Sobre mí" data-en="About Me">Sobre mí</a></li>
+            <li><a href="#experience" class="nav-item" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+            <li><a href="#projects" class="nav-item" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+            <li><a href="#services" class="nav-item" data-es="Servicios" data-en="Services">Servicios</a></li>
+            <li><a href="#contact" class="nav-item" data-es="Contacto" data-en="Contact">Contacto</a></li>
+        </ul>
+      
+        <!-- Menú hamburguesa (solo visible en móvil) -->
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      
+        <!-- Idioma -->
+        <div class="language-toggle">
+          <button id="es-btn" class="lang-btn active">ES</button>
+          <button id="en-btn" class="lang-btn">EN</button>
+        </div>
+      
+        <!-- Menú overlay para móvil -->
+        <div class="overlay-menu" id="overlay-menu">
+          <div class="close-btn" id="close-btn">&times;</div>
+          <ul class="overlay-links">
+            <li><a href="#home" class="nav-item" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="#about" class="nav-item" data-es="Sobre mí" data-en="About Me">Sobre mí</a></li>
+            <li><a href="#experience" class="nav-item" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+            <li><a href="#projects" class="nav-item" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+            <li><a href="#services" class="nav-item" data-es="Servicios" data-en="Services">Servicios</a></li>
+            <li><a href="#contact" class="nav-item" data-es="Contacto" data-en="Contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-es="CREADORA DE EXPERIENCIAS MULTIMEDIA" data-en="CREATIVE MULTIMEDIA DESIGNER">CREADORA DE EXPERIENCIAS MULTIMEDIA</h1>
+      <p class="subtitle" data-es="Explora mis proyectos de diseño, desarrollo web y experiencias 2D/3D, AR/VR." data-en="Explore my projects in web design, development, and 2D/3D, AR/VR experiences.">
+        Explora mis proyectos de diseño, desarrollo web y experiencias 2D/3D, AR/VR.
+      </p>
+      <a href="assets/cv-natalia-hernandez.pdf" class="btn-cv" download data-es="Descargar CV" data-en="Download CV">Descargar CV</a>
+    </div>
+  </section>
+  <section id="about">
+    <h2 class="section-title">
+      <span class="lang-es">SOBRE MÍ</span>
+      <span class="lang-en">ABOUT ME</span>
+    </h2>
+  
+    <div class="about-intro">
+      <div class="about-img">
+        <img src="assets/foto-natalia.jpg" alt="Foto Natalia Hernández">
+      </div>
+      <div class="about-text">
+        <div class="about-text">
+            <p class="lang-es">
+              Soy Ingeniera Multimedia egresada de la Universidad Autónoma de Occidente, con una sólida formación en diseño UX/UI, desarrollo web, videojuegos 2D/3D, modelado y animación. Actualmente curso una especialización en Inteligencia Artificial, lo que me permite integrar nuevas tecnologías en experiencias interactivas innovadoras, tanto en entornos de realidad aumentada como virtual.
+            </p>
+            <p class="lang-en">
+              I am a Multimedia Engineer graduated from Universidad Autónoma de Occidente, with solid training in UX/UI design, web development, 2D/3D games, modeling and animation. I am currently pursuing a specialization in Artificial Intelligence, which allows me to integrate new technologies into innovative interactive experiences, both in augmented and virtual reality environments.
+            </p>
+            <p class="lang-es">
+              Me apasiona la creación de soluciones digitales que combinan estética, funcionalidad y propósito, y me enfoco en proyectos que generen impacto positivo a través de la tecnología. Creo firmemente en el diseño centrado en el usuario, la investigación constante y la evolución continua como pilares de mi crecimiento profesional.
+            </p>
+            <p class="lang-en">
+              I am passionate about creating digital solutions that combine aesthetics, functionality, and purpose, and I focus on projects that generate positive impact through technology. I firmly believe in user-centered design, continuous research, and constant evolution as pillars of my professional growth.
+            </p>
+        </div>
+    </div>
+  
+    <div class="about-container">
+      <!-- MISIÓN -->
+      <div class="about-block">
+        <h3><span class="lang-es">MISIÓN</span><span class="lang-en">MISSION</span></h3>
+        <p class="lang-es">
+          Combinar creatividad, innovación y tecnología para diseñar experiencias visuales y funcionales que conecten con las personas.
+        </p>
+        <p class="lang-en">
+          Combine creativity, innovation, and technology to design visual and functional experiences that connect with people.
+        </p>
+      </div>
+  
+      <!-- VISIÓN -->
+      <div class="about-block">
+        <h3><span class="lang-es">VISIÓN</span><span class="lang-en">VISION</span></h3>
+        <p class="lang-es">
+          Ser reconocida como una creadora multimedia que transforma ideas en experiencias únicas, integrando arte, música y tecnología.
+        </p>
+        <p class="lang-en">
+          Be recognized as a multimedia creator who transforms ideas into unique experiences by integrating art, music, and technology.
+        </p>
+      </div>
+  
+      <!-- VALORES -->
+      <div class="about-block">
+        <h3><span class="lang-es">VALORES</span><span class="lang-en">VALUES</span></h3>
+        <ul>
+          <li><span class="lang-es">Creatividad</span><span class="lang-en">Creativity</span></li>
+          <li><span class="lang-es">Innovación</span><span class="lang-en">Innovation</span></li>
+          <li><span class="lang-es">Pasión por aprender</span><span class="lang-en">Passion for learning</span></li>
+          <li><span class="lang-es">Autenticidad</span><span class="lang-en">Authenticity</span></li>
+          <li><span class="lang-es">Colaboración</span><span class="lang-en">Collaboration</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <h2 class="section-title">
+      <span class="lang-es">EXPERIENCIA</span>
+      <span class="lang-en">EXPERIENCE</span>
+    </h2>
+  
+<!-- EXPERIENCIA - TEXTO MULTILENGUAJE -->
+<div class="experience-summary">
+
+    <!-- Español -->
+    <p class="lang-es">
+      Me gradué del Colegio Emanuel de Florida, Valle del Cauca, como bachiller y tecnóloga en sistemas, donde adquirí las bases para avanzar en mi camino profesional como ingeniera.
+    </p>
+  
+    <p class="lang-es">
+      En mi formación universitaria fortalecí competencias esenciales para el diseño de interfaces, contenidos visuales y videojuegos 2D/3D, desde su conceptualización hasta su ejecución. Este proceso también consolidó mi capacidad para crear experiencias inmersivas centradas en el usuario, optimizar medios digitales, trabajar con grandes volúmenes de datos multimedia y desarrollar plataformas eficientes.
+    </p>
+  
+    <p class="lang-es">
+      Además, he participado en proyectos académicos alineados con los <strong>Objetivos de Desarrollo Sostenible (ODS)</strong>, desarrollando prototipos funcionales que proponen soluciones reales a problemáticas sociales, integrando investigación rigurosa, pensamiento crítico y trabajo colaborativo.
+    </p>
+  
+    <p class="lang-es" style="margin-bottom: 1rem;">
+      Como Ingeniera Multimedia UAO, estoy capacitada para desempeñarme en sectores como:
+    </p>
+  
+    <ul class="styled-list lang-es">
+      <li>Industrias creativas mediadas por tecnología digital</li>
+      <li>Desarrollo de servicios y aplicaciones multimedia</li>
+      <li>Diseño de experiencias inmersivas (RV/RM)</li>
+      <li>UX, televisión digital, educación virtual y gobierno digital</li>
+    </ul>
+  
+    <p class="lang-es">
+      Con una visión estratégica para el uso de las <strong>TIC</strong>, busco seguir aportando con creatividad e innovación al desarrollo de soluciones tecnológicas con propósito.
+    </p>
+  
+    <p class="lang-es">
+      Para fortalecer mi carrera, he realizado cursos complementarios en plataformas como <strong>Udemy</strong>, que enriquecen mis habilidades técnicas y creativas. Estos aprendizajes autodirigidos reflejan mi compromiso con la formación continua y la evolución profesional constante.
+    </p>
+  
+    <!-- English -->
+    <p class="lang-en">
+      I graduated from Colegio Emanuel in Florida, Valle del Cauca, as a high school student and systems technologist, where I built the foundations to pursue my professional path as an engineer.
+    </p>
+  
+    <p class="lang-en">
+      During my university training, I strengthened essential skills for designing interfaces, visual content, and 2D/3D video games—from conceptualization to execution. This process also enhanced my ability to create immersive user-centered experiences, optimize digital media, manage large volumes of multimedia data, and develop efficient platforms.
+    </p>
+  
+    <p class="lang-en">
+      I also participated in academic projects aligned with the <strong>Sustainable Development Goals (SDGs)</strong>, developing functional prototypes that offer real solutions to social challenges through rigorous research, critical thinking, and collaborative work.
+    </p>
+  
+    <p class="lang-en" style="margin-bottom: 1rem;">
+      As a Multimedia Engineer from UAO, I am prepared to work in fields such as:
+    </p>
+  
+    <ul class="styled-list lang-en">
+      <li>Creative industries powered by digital technologies</li>
+      <li>Development of multimedia services and applications</li>
+      <li>Design of immersive experiences (VR/MR)</li>
+      <li>UX, digital television, virtual education, and digital government</li>
+    </ul>
+  
+    <p class="lang-en">
+      With a strategic vision for the use of <strong>ICT</strong>, I aim to keep contributing to the development of purpose-driven technological solutions through creativity and innovation.
+    </p>
+  
+    <p class="lang-en">
+      To strengthen my career, I’ve taken complementary courses on platforms like <strong>Udemy</strong>, which enhance my technical and creative skills. These self-directed learnings reflect my commitment to continuous growth and professional evolution.
+    </p>
+  
+  </div>
+  
+    <div class="course-gallery">
+      <!-- Tarjeta 1 -->
+      <div class="course-card" data-title="Curso SQL" data-duration="4 horas" data-description-es="Curso avanzado donde aprendí a manejar subconsultas, CTEs y realizar consultas complejas en SQL para bases de datos relacionales." data-description-en="Advanced course where I learned how to use subqueries, CTEs, and perform complex queries in SQL for relational databases.">
+        <img src="assets/cert-sql.jpg" alt="Certificado SQL">
+      </div>
+  
+      <!-- Tarjeta 2 -->
+      <div class="course-card" data-title="Unity y C#" data-duration="53.5 horas" data-description-es="Curso completo para crear videojuegos 2D y 3D en Unity con C#. Aprendí scripting, física, animación y publicación." data-description-en="Full course to build 2D/3D games in Unity using C#. I learned scripting, physics, animation, and publishing.">
+        <img src="assets/cert-unity.jpg" alt="Certificado Unity">
+      </div>
+  
+      <!-- Tarjeta 3 -->
+      <div class="course-card" data-title="Java Profesional" data-duration="16 horas" data-description-es="Formación de Java desde cero hasta avanzado, donde trabajé con programación orientada a objetos, estructuras de control, clases e interfaces." data-description-en="Java training from beginner to advanced, including object-oriented programming, control structures, classes and interfaces.">
+        <img src="assets/cert-java.jpg" alt="Certificado Java">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-modal">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p><strong class="lang-es">Duración:</strong><strong class="lang-en">Duration:</strong> <span id="modal-duration"></span></p>
+      <p id="modal-description" class="lang-es"></p>
+      <p id="modal-description-en" class="lang-en"></p>
+    </div>
+  </div>
+  <section id="projects">
+    <h2 class="section-title">
+      <span class="lang-es">PROYECTOS</span>
+      <span class="lang-en">PROJECTS</span>
+    </h2>
+  
+    <div class="projects-gallery">
+      <!-- Proyecto 1 -->
+      <div class="project-card">
+        <img src="assets/proyecto1.jpg" alt="Proyecto 1">
+        <div class="project-info">
+          <h3 data-es="NeuroLearn" data-en="NeuroLearn">NeuroLearn</h3>
+          <p class="lang-es">Plataforma educativa interactiva para estudiantes con dificultades de aprendizaje, basada en gamificación y UX accesible.</p>
+          <p class="lang-en">Interactive learning platform for students with learning difficulties, based on gamification and accessible UX.</p>
+        </div>
+      </div>
+  
+      <!-- Proyecto 2 -->
+      <div class="project-card">
+        <img src="assets/proyecto2.jpg" alt="Proyecto 2">
+        <div class="project-info">
+          <h3 data-es="PawPal" data-en="PawPal">PawPal</h3>
+          <p class="lang-es">Aplicación móvil para el cuidado de mascotas con funciones de control médico, notificaciones y comunidad de adopción.</p>
+          <p class="lang-en">Mobile app for pet care with medical tracking, notifications and adoption community features.</p>
+        </div>
+      </div>
+  
+      <!-- Puedes seguir agregando más proyectos -->
+    </div>
+  </section>
+  <section id="services">
+    <h2 class="section-title">
+      <span class="lang-es">SERVICIOS</span>
+      <span class="lang-en">SERVICES</span>
+    </h2>
+  
+    <div class="services-container">
+      <!-- Servicio 1 -->
+      <div class="service-card flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>
+              <span class="lang-es">Diseño UX/UI</span>
+              <span class="lang-en">UX/UI Design</span>
+            </h3>
+          </div>
+          <div class="flip-back">
+            <p class="lang-es">Creación de interfaces centradas en el usuario, prototipos funcionales y experiencia intuitiva adaptada a diferentes dispositivos.</p>
+            <p class="lang-en">User-centered interface design, functional prototypes, and intuitive experience adapted to multiple devices.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Servicio 2 -->
+      <div class="service-card flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>
+              <span class="lang-es">Desarrollo Web</span>
+              <span class="lang-en">Web Development</span>
+            </h3>
+          </div>
+          <div class="flip-back">
+            <p class="lang-es">Construcción de sitios web dinámicos y responsivos, integrando estética visual, rendimiento y funcionalidad.</p>
+            <p class="lang-en">Building dynamic, responsive websites that integrate visual design, performance, and functionality.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Servicio 3 -->
+      <div class="service-card flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>
+              <span class="lang-es">Videojuegos 2D/3D</span>
+              <span class="lang-en">2D/3D Games</span>
+            </h3>
+          </div>
+          <div class="flip-back">
+            <p class="lang-es">Diseño y programación de videojuegos interactivos con narrativas atractivas, entornos inmersivos y mecánicas innovadoras.</p>
+            <p class="lang-en">Design and development of interactive games with compelling stories, immersive environments, and innovative mechanics.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Servicio 4 -->
+      <div class="service-card flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>
+              <span class="lang-es">RA/RV y Modelado 3D</span>
+              <span class="lang-en">AR/VR & 3D Modeling</span>
+            </h3>
+          </div>
+          <div class="flip-back">
+            <p class="lang-es">Creación de experiencias en realidad aumentada y virtual, con escenarios y objetos modelados en 3D para interacción avanzada.</p>
+            <p class="lang-en">Development of augmented and virtual reality experiences with 3D modeled environments and interactive elements.</p>
+          </div>
+        </div>
+      </div>
+  
+ <!-- Fila 2 (2 tarjetas centradas con espacio a los lados) -->
+<div class="spacer"></div>
+
+<div class="service-card flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <h3>
+        <span class="lang-es">Redes y Servicios de Interconexión</span>
+        <span class="lang-en">Networking & Interconnection Services</span>
+      </h3>
+    </div>
+    <div class="flip-back">
+      <p class="lang-es">Diseño y despliegue de soluciones de red, configurando servicios con protocolos adecuados para resolver necesidades del entorno.</p>
+      <p class="lang-en">Design and deployment of network solutions, configuring services using appropriate protocols to address contextual needs.</p>
+    </div>
+  </div>
+</div>
+
+<div class="service-card flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <h3>
+        <span class="lang-es">Consultoría Multimedia</span>
+        <span class="lang-en">Multimedia Consulting</span>
+      </h3>
+    </div>
+    <div class="flip-back">
+      <p class="lang-es">Acompañamiento en proyectos que requieren estrategias digitales, diseño centrado en el usuario y soluciones interactivas.</p>
+      <p class="lang-en">Guidance on projects requiring digital strategy, user-centered design, and interactive solutions.</p>
+    </div>
+  </div>
+</div>
+
+<div class="spacer"></div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2 class="section-title">
+      <span class="lang-es">CONTACTO</span>
+      <span class="lang-en">CONTACT</span>
+    </h2>
+  
+    <div class="contact-container">
+      <p class="lang-es">¿Tienes un proyecto o quieres contactarme? Estoy disponible para nuevas oportunidades y colaboraciones.</p>
+      <p class="lang-en">Do you have a project or want to reach out? I'm available for new opportunities and collaborations.</p>
+  
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/natalia-hernandez-322056247" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/nathernandez__" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/573024062217" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:nataliaandrea3421@gmail.com" target="_blank" aria-label="Correo">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
