@@ -104,3 +104,17 @@ window.addEventListener('click', e => {
     modal.style.display = 'none';
   }
 });
+// FLIP-CARD en móviles: activa clase 'flipped' con un clic
+document.querySelectorAll('.flip-card').forEach(card => {
+  card.addEventListener('click', function () {
+    if (window.innerWidth <= 768) {
+      this.querySelector('.flip-inner').classList.toggle('flipped');
+    }
+  });
+});
+
+// Cierre del modal con botón (ya está en tu script, solo asegúrate que esté al final y no duplicado)
+document.getElementById('close-modal').addEventListener('click', () => {
+  document.getElementById('modal').style.display = 'none';
+});
+
